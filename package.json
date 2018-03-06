@@ -6,16 +6,10 @@
   "scripts": {
     "test": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kongdev/kong-node.git"
-  },
+ 
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kongdev/kong-node/issues"
-  },
-  "homepage": "https://github.com/kongdev/kong-node#readme",
+ 
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2"

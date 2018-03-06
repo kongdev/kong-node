@@ -1,10 +1,6 @@
-//const express = require('express')
-
-import express from 'express'
-import bodyParser from 'body-parser'
-
+const express = require('express')
+const bodyParser = require('body-parser')
 const app = express()
-
 //app.get('/', (req, res) => res.send('Hello World!'))
 
 app.use(bodyParser.json())
