@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({
 
 
 app.get('/', function (req, res,next) {
-    console.log(req.connection.remoteAddress)
+    //console.log(req.connection.remoteAddress)
     res.send('Hello World!')
 })
 
